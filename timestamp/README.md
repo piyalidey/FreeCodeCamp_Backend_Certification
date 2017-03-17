@@ -18,20 +18,20 @@ of that date.
 properties.
 
 ## Deployment:
-You can test it at [https://*****.herokuapp.com/](https://***.herokuapp.com/)
+You can test it at [https://safe-ocean-82722.herokuapp.com/](https://safe-ocean-82722.herokuapp.com/)
 
 ## Usage:
 ```
-https://***.herokuapp.com/January 10, 2015
+https://safe-ocean-82722.herokuapp.com/January 10, 2015
 ```
 ```
-https://***.herokuapp.com/1420848000
+https://safe-ocean-82722.herokuapp.com/1420848000
 ```
 ```
-https://***.herokuapp.com/jibbarish
+https://safe-ocean-82722.herokuapp.com/jibbarish
 ```
 ```
-https://***.herokuapp.com
+https://safe-ocean-82722.herokuapp.com
 ```
 
 ## Sample Output:
