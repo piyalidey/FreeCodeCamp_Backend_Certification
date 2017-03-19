@@ -1,28 +1,21 @@
 {
-  "name": "requestheaderparser",
-  "version": "1.0.0",
-  "description": "LETS YOU RETRIVE THE  IP, LANGUAGE AND BROWSER MAKING THAT REQUEST",
+  "name": "request-header-parser",
+  "version": "0.0.1",
+  "description": "Lets you retrieve the ip, language and OS details of the client machine",
   "main": "app.js",
-  "scripts": {
-    "start" : "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/piyalidey/FreeCodeCamp_Backend_Certification/requestHeaderParser"
   },
-  "keywords": [
-    "API",
-    "Header",
-    "node",
-    "express"
-  ],
   "author": "piyali-dey <pdey@ncsu.edu>",
-  "license": "MIT",
-  "engines" : {
-    "node" : "6.0.0"
-  },
   "dependencies": {
     "express": "4.15.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.0.0"
   }
 }
