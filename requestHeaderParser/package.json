@@ -4,6 +4,7 @@
   "description": "LETS YOU RETRIVE THE  IP, LANGUAGE AND BROWSER MAKING THAT REQUEST",
   "main": "app.js",
   "scripts": {
+    "start" : "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,9 @@
   ],
   "author": "piyali-dey <pdey@ncsu.edu>",
   "license": "MIT",
+  "engines" : {
+    "node" : "6.0.0"
+  },
   "dependencies": {
     "express": "4.15.2"
   }

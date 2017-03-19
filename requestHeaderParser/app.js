@@ -30,7 +30,7 @@ app.get('/api/whoami', function(req,res){
         "language" :  req.headers["accept-language"].split(",")[0],
         "software":   req.headers["user-agent"].split("(")[1].split(")")[0]
     };
-    console.log(JSON.stringify(info) + "/n");
+    //console.log(JSON.stringify(info) + "/n");
 
     res.set('Content-Type', 'application/json');
     res.json(info);
