@@ -20,7 +20,7 @@
   "author": "piyali-dey <pdey@ncsu.edu>",
   "license": "MIT",
   "engines" : {
-    "node" : "6.0.0",
+    "node" : "6.0.0"
   },
   "dependencies": {
     "express": "4.15.2"
