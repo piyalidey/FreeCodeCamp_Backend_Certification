@@ -2,14 +2,15 @@ var mongodb = require('mongodb');
 var shortid = require('shortid');
 var validUrl = require('valid-url');
 var express = require('express');
-var config = require('../config');
-var mLab = 'mongodb://' + config.db.host + '/' + config.db.name;
+
+var app = express();
+
+var mLab = "mongodb://piyalidey:123456@ds139360.mlab.com:39360/url-short-fcc";
 var MongoClient = mongodb.MongoClient
 
 // removes underscores and dashes from possible characterlist
 shortid.characters('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$@');
 
-var app = express();
 
 /* GET home page. */
 app.get('/', function(req, res, next) {
