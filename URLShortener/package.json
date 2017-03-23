@@ -1,0 +1,17 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "A URL Shortener Microservice ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "piyali-dey <pdey@ncsu.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.15.2",
+    "mongodb": "2.2.25",
+    "shortid": "2.2.8",
+    "valid-url": "1.0.9"
+  }
+}
